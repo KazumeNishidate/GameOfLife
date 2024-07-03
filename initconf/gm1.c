@@ -33,7 +33,7 @@ int main(void){
 	printf("button=%d x=%g y=%g\n",b,x,y) ;
 	mat[ix*NX+iy] = 1;
 	cnt++;
-	if(cnt>10) break;
+	if(cnt>100) break;
       } else if( type == KeyPress ){
 	if( b=='q' ) break ;
 	printf("key code = %d\n",b) ;
