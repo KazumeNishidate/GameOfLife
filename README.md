@@ -1,7 +1,7 @@
 
 # Game of Life
 
-This code simulates the Game of Life using GSL and EGGX. To compile the code, type 'make' in the program directory.
+This code simulates the Game of Life using [GSL](https://www.gnu.org/software/gsl/) and [EGGX](https://www.ir.isas.jaxa.jp/~cyamauch/eggx_procall/index.html). To compile the code, type 'make' in the program directory.
 
 The maximum timesteps, the matrix size, and the concentration are set in the **control.c** as: 
 
@@ -40,5 +40,3 @@ from
 to
 
 > FILE *fp=fopen("../initconf2/position.txt","r");
-
-[Kazume NISHIDATE](https://sites.google.com/site/nisidatelab/file-cabinet/the-team?authuser=0)
