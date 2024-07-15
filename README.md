@@ -35,7 +35,7 @@ The directory **initconf2** contains a Perl script, which translates the map of 
 Copy one of the 'life' from the [Life Lexicon](http://www.radicaleye.com/lifepage/lexicon.html) site and paste it into a data file, data.txt. The Perl script lex2pos.pl will translate it into positions.txt, which can be used as the input file.
 
 ``` bash
- lex2pos.pl data.txt
+ ./lex2pos.pl data.txt
 ```
 
 To read the positions.txt in this directory, you must modify the following line in the init.c
