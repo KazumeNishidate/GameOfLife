@@ -17,7 +17,7 @@ Type 'make' to recompile the code whenever you change any of these parameters.
 
 The directory **initiconf** contains the EGGX program, **gm1.c**, which supports the creation of an initial configuration using the mouse. Use the egg to compile the code.
 
-``` shell {.copy}
+``` bash {.copy}
  egg gm1.c
 ```
 
@@ -34,7 +34,7 @@ The directory **initconf2** contains a Perl script, which translates the map of 
 
 Copy one of the 'life' from the [Life Lexicon](http://www.radicaleye.com/lifepage/lexicon.html) site and paste it into a data file, data.txt. The Perl script lex2pos.pl will translate it into positions.txt, which can be used as the input file.
 
-``` shell
+``` bash
  lex2pos.pl data.txt
 ```
 
