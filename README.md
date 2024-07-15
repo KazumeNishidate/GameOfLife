@@ -51,3 +51,5 @@ to
 ```
  FILE *fp=fopen("../initconf2/position.txt","r");
 ```
+
+![](images/im.jpg)
