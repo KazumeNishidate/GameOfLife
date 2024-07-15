@@ -49,5 +49,5 @@ from
 to
 
 ```
-> FILE *fp=fopen("../initconf2/position.txt","r");
+ FILE *fp=fopen("../initconf2/position.txt","r");
 ```
