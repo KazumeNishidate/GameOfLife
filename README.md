@@ -20,6 +20,7 @@ The directory **initiconf** contains the EGGX program, **gm1.c**, which supports
 You can create your own life by drawing the mouse and pressing its button. Type 'q' to quit the mouse input. Then, a file, **positions.txt**, which stores position data, will be created in the same directory. Also, the function set_blinker() must be enabled instead of set_init_conf() in the **main.c** to read the file.
 
 > //set_init_cont()
+
 > set_blinker()
 
 ## Lexicon
