@@ -5,7 +5,7 @@ This code simulates the Game of Life using [GSL](https://www.gnu.org/software/gs
 
 The maximum timesteps, the matrix size, and the concentration are set in the **control.c** as:
 
-``` c {.copy}
+``` c
  ctl.max_time_step = 20000;
  ctl.mat_size = 100;
  ctl.concentration = 0.2;  
@@ -23,7 +23,7 @@ The directory **initiconf** contains the EGGX program, **gm1.c**, which supports
 
 You can create your own life by drawing the mouse and pressing its button. Type 'q' to quit the mouse input. Then, a file, **positions.txt**, which stores position data, will be created in the same directory. Also, the function set_blinker() must be enabled instead of set_init_conf() in the **main.c** to read the file.
 
-``` c 
+```
  //set_init_cont()
  set_blinker()
 ```
@@ -42,12 +42,12 @@ To read the positions.txt in this directory, you must modify the following line 
 
 from
 
-``` c
+```
  FILE *fp=fopen("../initconf/position.txt","r");
 ```
 
 to
 
-``` c
+```
 > FILE *fp=fopen("../initconf2/position.txt","r");
 ```
